@@ -1,5 +1,5 @@
 
-{"homepage": "https://santhosharun18.github.io/santhosh_portfolio",
+{
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,6 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
